@@ -4,11 +4,21 @@ public class MatchResult {
 
     private String teams;
     private List<String> goalScorers;
+
     public MatchResult(String teams, List<String> goalScorers) {
-//TO DO
+
+        this.teams=teams;
+        this.goalScorers=goalScorers;
     }
+
     public List<String> getGoalScorers() {
-//TO DO
+        return goalScorers;
     }
+
+    @Override
+    public String toString(){
+        return teams + " : " + goalScorers + "\n";
+    }
+
 
 }

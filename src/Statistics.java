@@ -4,7 +4,10 @@ import java.util.Map;
 import java.util.Set;
 
 public class Statistics {
+
     private List<MatchResult> matchResults;
+
+
     public Statistics(String filename) throws FileNotFoundException {
 //TO DO
     }
