@@ -20,11 +20,3 @@ public class MatchResultFileReader {
         // indholde navnet for hver mål scorede.
     }
 }
-
-
-
-
-
-
-
-
